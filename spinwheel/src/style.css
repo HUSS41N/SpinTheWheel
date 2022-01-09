@@ -1,0 +1,24 @@
+body{
+    background: #870000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.rotate{
+    animation: rotate 1s linear infinite;
+}
+.stop-rotate{
+    animation-play-state: paused;
+}
+@keyframes rotate{
+    0% { transform: rotate(-360deg); }
+    100% { transform: rotate(360deg); }
+}
+button{
+    border-radius: 20px;
+    border: none;
+    background-color: #ff3f34;
+    font-size: 2rem;
+    color: #fff;
+    
+}
